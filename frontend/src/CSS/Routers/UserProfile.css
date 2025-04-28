@@ -1,0 +1,56 @@
+.profile_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile_upper_portion {
+  background-color: transparent;
+  padding: 10rem;
+  position: relative;
+}
+
+.profile_lower_portion {
+  background-color: #00ff7f;
+  padding: 13.9rem;
+  position: relative;
+}
+
+.profile_middle_portion {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 100rem;
+  height: 40rem; /* Adjust height as needed */
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile_username {
+  position: absolute;
+  margin-bottom: 35rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: black;
+}
+.profile_email {
+  position: absolute;
+  margin-bottom: 35rem;
+  margin-left: 58rem;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: black;
+}
+.profile_btn {
+  position: absolute;
+  margin-top: 25rem;
+  margin-left: 75rem;
+}
+
+.profile_create {
+  background-color: transparent;
+}

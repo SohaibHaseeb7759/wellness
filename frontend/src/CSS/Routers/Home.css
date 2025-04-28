@@ -1,0 +1,17 @@
+.Home_con {
+  width: 50%; /* or any desired width */
+  margin: 0 auto;
+  margin-top: 12rem;
+  text-align: center;
+}
+.Home_h5 {
+  font-size: 1rem;
+}
+.Home_h2 {
+  font-size: 6rem;
+}
+.Home_h3 {
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}

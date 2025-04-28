@@ -1,0 +1,42 @@
+/* Container for the whole calendar view */
+.calendar-container {
+  /* padding: 2rem; */
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Title styling */
+.calendar-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+/* Flex container for booking cards */
+.calendar-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Individual booking card styling */
+.calendar-card {
+  border: 0.3rem solid #00ff7f;
+  border-radius: 2rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Date and time styling */
+.calendar-date {
+  font-weight: bold;
+  color: white;
+}
+
+/* Expert name styling */
+.calendar-expert {
+  margin-top: 0.5rem;
+  color: white;
+}

@@ -1,0 +1,102 @@
+.form-group {
+  position: relative;
+  width: 300px;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  padding-right: 4rem;
+  background-color: transparent;
+  color: black;
+}
+.form-group input ::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.form-group input:focus {
+  border-color: #5cb85c;
+  box-shadow: 0px 3px 6px rgba(92, 184, 92, 0.4);
+  outline: none;
+}
+
+.achievement-item {
+  position: relative;
+  width: 300px;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.achievement-item input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  padding-right: 4rem;
+  background-color: transparent;
+  color: black;
+}
+
+.achievement-item input:focus {
+  border-color: #5cb85c;
+  box-shadow: 0px 3px 6px rgba(92, 184, 92, 0.4);
+  outline: none;
+}
+.form-name,
+.form-ag,
+.form-wh,
+.form-des {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  background-color: transparent;
+}
+.form-title {
+  margin-left: 10rem;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+.achievement-item input {
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+.submit-btn {
+  /* position: absolute; */
+  margin-left: 28rem;
+  margin-bottom: 2rem;
+
+  /* padding-bottom: 16rem; */
+}
+.file {
+  margin-left: 2rem;
+  background-color: transparent;
+}
+.add-achievement-btn {
+  position: absolute;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 22rem;
+  margin-top: -5rem;
+}

@@ -1,0 +1,61 @@
+.display_profile_pic {
+  margin-top: 2rem;
+  height: 85%;
+  width: 85%;
+  background-color: transparent;
+}
+.display_profile_container {
+  display: flex;
+  flex-direction: row;
+  /* padding-right: 1rem; */
+  height: 35rem;
+  background-color: transparent;
+}
+.display_profile_p {
+  color: black;
+  background-color: transparent;
+}
+.display_profile_pic_box {
+  background-color: transparent;
+  width: 40rem;
+}
+.display_profile_box {
+  background-color: transparent;
+  margin-right: 8rem;
+  width: 40rem;
+
+  /* margin-left: 15rem; */
+}
+.display_profile_h3,
+.display_profile_li,
+.display_profile_age,
+.display_profile_ul,
+.display_profile_title {
+  background-color: transparent;
+  color: black;
+}
+
+.display_profile_h3 {
+  margin-top: 4rem;
+  margin-left: 8rem;
+  padding: 1rem;
+  font-size: 4rem;
+  background-color: transparent;
+}
+.display_profile_age,
+.display_profile_p {
+  font-size: 1.5rem;
+  margin-left: 5rem;
+}
+
+.display_profile_ul {
+  list-style: none;
+}
+.display_profile_li {
+  font-size: 1.5rem;
+  margin-left: 3rem;
+}
+.span {
+  background-color: transparent;
+  color: #00ff7f;
+}

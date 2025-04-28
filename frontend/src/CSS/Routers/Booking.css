@@ -1,0 +1,9 @@
+.expert_box {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+.expert_inputField {
+  padding: 1rem;
+  border: #00ff7f solid 0.1rem;
+}

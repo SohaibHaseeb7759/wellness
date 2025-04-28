@@ -1,0 +1,11 @@
+.display_container,
+.display_h,
+.display_ul,
+.display_text {
+  background-color: transparent;
+  color: white;
+}
+.display_text {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}

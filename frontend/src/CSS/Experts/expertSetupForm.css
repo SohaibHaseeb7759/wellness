@@ -1,0 +1,65 @@
+/* ExpertSetupForm.css */
+.form-container1 {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: #f9f9f9; */
+  border: #00ff7f solid 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: white;
+}
+
+.error {
+  color: red;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.expert-form .form-group1 {
+  margin-bottom: 15px;
+}
+
+.expert-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.expert-form input,
+.expert-form textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px dotted #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+}
+
+.expert-form textarea {
+  resize: vertical;
+}
+
+.submit-button1 {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #00ff7f;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button1:hover {
+  background-color: #00ff3f;
+}
